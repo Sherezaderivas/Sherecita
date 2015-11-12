@@ -1,16 +1,16 @@
 shinyUI(bootstrapPage(
   
   selectInput(inputId = "n_breaks",
- label = "Number of bins in histogram (approximate):",
+ label = "Probando la efectividad de esto:",
  choices = c(10, 20, 35, 50),
  selected = 20),
   
   checkboxInput(inputId = "individual_obs",
- label = strong("Show individual observations"),
+ label = strong("Shere"),
  value = FALSE),
   
   checkboxInput(inputId = "density",
- label = strong("Show density estimate"),
+ label = strong("-.-"),
  value = FALSE),
   
   plotOutput(outputId = "main_plot", height = "300px"),
